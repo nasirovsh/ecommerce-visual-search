@@ -1,0 +1,5 @@
+certifi == 2024.7.4
+pillow == 10.3.0
+streamlit == 1.37.1
+scikit-learn == 1.5.1
+tensorflow == 2.16.1

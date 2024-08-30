@@ -95,6 +95,10 @@ This project is an image search engine that allows users to upload an image and 
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
 
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
 ## Acknowledgements
 
 - The ResNet50 model is provided by TensorFlow and was originally developed by Microsoft Research.

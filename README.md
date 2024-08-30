@@ -34,7 +34,7 @@ This project is an image search engine that allows users to upload an image and 
     pip install -r requirements.txt
     ```
 
-   3.1 For better performance, install the Watchdog module:
+   For better performance, install the Watchdog module:
       
       For macOS users:
       ```sh
@@ -53,9 +53,19 @@ This project is an image search engine that allows users to upload an image and 
    - Ensure all images are in JPG format.
 
 2. **Run the Streamlit app**:
-    ```sh
-    streamlit run main.py
-    ```
+   
+   - Run in terminal:
+      ```sh
+      streamlit run main.py
+      ```
+   
+   - Run/Debug in PyCharm:
+   
+      Go to Run/Debug Configurations and add a new configuration for Streamlit Server. Set module name to `streamlit` and parameters to `run main.py`.
+   
+      Click on the Run button to start the Streamlit server.
+
+   - Open the browser and go to the URL displayed in the terminal (usually `http://localhost:8501`).
 
 3. **Use the app**:
    - Upload an image: Use the file uploader to select an image in JPG format.
